@@ -1,0 +1,94 @@
+/*#root {
+  padding: 10px;
+  text-align: center;
+}
+/*
+
+/* This should ideally be in a global CSS file */
+
+body {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: -10px;
+  min-width: 320px;
+  min-height: 100vh;
+  text-align: center;
+   padding: 10px;
+  text-align: center;
+}
+
+/* Remove max-width, margin, and padding from body */
+
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content: end;
+  background-color: rgb(255, 4, 88);
+  padding: 30px;
+}
+
+.home, .login, .createpost, .username {
+ margin-right: 10px;
+ text-decoration: none;
+ font-weight: 500;
+ color: rgb(255, 255, 255);
+}
+
+.picture {
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.logout {
+  border: none;
+  border-radius: 20px;
+  width: 40px;
+  height: 40px;
+  color:rgb(255, 4, 88);
+  background-color: white;
+}
+
+/*
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+*/
